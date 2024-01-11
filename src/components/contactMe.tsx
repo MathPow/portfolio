@@ -10,7 +10,7 @@ export default function ContactMe() {
   return ( 
     <section className='absolute z-20 top-52 left-[30%]'>
         <h3 className="text-2xl font-bold mb-4">Contact Form</h3>
-        <div className="container p-8 rounded form">
+        <div className=" rounded">
         <form action="/action_page.php">
 
             <div className="mb-6">

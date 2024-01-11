@@ -1,11 +1,8 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {
-  reactStrictMode: true,
-}
 
 module.exports = {
-  nextConfig,
-  exportPathMap: function () {
+  reactStrictMode: true,
+  async generateStaticParams() {
     return {
       '/': { page: '/' },
       // Add other pages as needed
