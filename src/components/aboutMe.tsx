@@ -11,10 +11,10 @@ export default function AboutMe() {
     <section className='flex flex-col justify-start absolute z-20 top-[25vh] w-[60vw] left-0 right-0 mx-auto gap-12'>
         <div className='flex flex-col blur-background'>
             <h3 className="text-3xl font-bold mb-4 text-white">Enchanté, je suis Mathys</h3>
-            <p className='text-lg text-gray-300'>Je suis un passionné par toutes les facettes de l'informatique et
-            de la gestion. J'aime surtout innover dans le secteur du web et
+            <p className='text-lg text-gray-300'>Je suis un passionné par toutes les facettes de l&apos;informatique et
+            de la gestion. J&apos;aime surtout innover dans le secteur du web et
             créer des expériences utilisateur fluides et fascinantes. Je me
-            tiens à jour avec les nouvelles technologies et je n'hésite pas à
+            tiens à jour avec les nouvelles technologies et je n&apos;hésite pas à
             explorer de nouveaux concepts.</p>
         </div> 
         <div className='flex flex-col blur-background w-[45vw]'>
