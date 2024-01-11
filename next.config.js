@@ -1,5 +1,5 @@
 /** @type {import('next').NextConfig} */
-module.exports = {
+const nextConfig = {
   reactStrictMode: true,
   images: {
     // your images configuration, if any
@@ -7,5 +7,6 @@ module.exports = {
   experimental: {
     // your experimental configuration, if any
   },
-  // other Next.js configuration options
-};
+}
+ 
+export default nextConfig
