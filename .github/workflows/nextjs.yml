@@ -94,10 +94,10 @@ jobs:
     steps:
       # - name: Verify Directory Contents
       #   run: ls -R ./out
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v4
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
           path: ./out
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
