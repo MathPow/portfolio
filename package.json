@@ -1,6 +1,6 @@
 {
-  "homepage": "https://MathPow.github.io/Portfolio",
-  "name": "my-app",
+  "homepage": "https://MathPow.github.io/portfolio",
+  "name": "portfolio",
   "version": "0.1.0",
   "private": true,
   "scripts": {
