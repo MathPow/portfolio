@@ -1,12 +1,11 @@
 /** @type {import('next').NextConfig} */
-
 module.exports = {
   reactStrictMode: true,
-  outDir: './out',
-  async generateStaticParams() {
-    return {
-      '/': { page: '/' },
-      // Add other pages as needed
-    };
+  images: {
+    // your images configuration, if any
   },
-}
+  experimental: {
+    // your experimental configuration, if any
+  },
+  // other Next.js configuration options
+};
