@@ -3,4 +3,12 @@ const nextConfig = {
   reactStrictMode: true,
 }
 
-module.exports = nextConfig
+module.exports = {
+  nextConfig,
+  exportPathMap: function () {
+    return {
+      '/': { page: '/' },
+      // Add other pages as needed
+    };
+  },
+}
