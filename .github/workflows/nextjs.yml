@@ -75,7 +75,10 @@ jobs:
         run: ${{ steps.detect-package-manager.outputs.manager }} ${{ steps.detect-package-manager.outputs.command }}
       - name: Build with Next.js
         run: npx --no-install next build      
-      
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./out
       #- name: Deploy with gh-pages
       #  run: |
       #    git remote set-url origin https://git:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git
@@ -94,10 +97,6 @@ jobs:
     steps:
       # - name: Verify Directory Contents
       #   run: ls -R ./out
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
-        with:
-          path: ./out
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4

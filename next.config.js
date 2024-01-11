@@ -2,6 +2,7 @@
 
 module.exports = {
   reactStrictMode: true,
+  outDir: './out',
   async generateStaticParams() {
     return {
       '/': { page: '/' },
