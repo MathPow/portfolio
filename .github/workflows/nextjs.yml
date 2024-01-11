@@ -92,8 +92,8 @@ jobs:
     runs-on: ubuntu-latest
     needs: build
     steps:
-      - name: Verify Directory Contents
-        run: ls -R ./github-pages
+      # - name: Verify Directory Contents
+      #   run: ls -R ./out
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
