@@ -1,12 +1,15 @@
 import React, { useState } from 'react';
 import RightDrawer from './rightDrawer';
 import '@/styles/globals.css';
+import { RedirectEnum } from './redirectEnum';
 
 interface HamburgerMenuProps {
   isBackgroundDark: boolean;
+  redirect: (redirect: RedirectEnum, number: Number | null) => void;
+  downloadPdf: () => void;
 }
 
-const HamburgerMenu = ({ isBackgroundDark }: HamburgerMenuProps) => {
+const HamburgerMenu = ({ isBackgroundDark, redirect, downloadPdf }: HamburgerMenuProps) => {
   const [isOpen, setIsOpen] = useState(false);
 
   const toggleMenu = () => {
@@ -24,7 +27,7 @@ const HamburgerMenu = ({ isBackgroundDark }: HamburgerMenuProps) => {
         <div className={`bar2 ${isBackgroundDark && "bg-white" || "bg-black"}`} />
         <div className={`bar3 ${isBackgroundDark && "bg-white" || "bg-black"}`} />
       </div>
-      <RightDrawer isOpen={isOpen} onClose={closeMenu} />
+      <RightDrawer isOpen={isOpen} onClose={closeMenu} redirect={redirect} downloadPdf={downloadPdf}/>
     </div>
   );
 };
