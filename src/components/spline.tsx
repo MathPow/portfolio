@@ -458,29 +458,29 @@ export default function SplineApp() {
       {/* <button className='absolute z-20 top-48' type="button" onClick={triggerAnimation}>
         Trigger Spline Animation
         </button> */}
-      {/* {isPageOpened && ( */}
-      <Navigation
-        {...{
-          htmlOutlineDot,
-          htmlFullDot,
-          backToSection1,
-          backToSection2,
-          backToSection3,
-          backToSection4,
-          togglePage,
-          sectionName,
-          trainingNumber,
-          experienceNumber,
-          triggerArrow,
-          isExperience,
-          isHtmlDot,
-          projectNumber,
-          backToHome,
-          redirect,
-        }}
-        isBackgroundDark={isBackgroundDark()}
-      ></Navigation>
-      {/* )} */}
+      {isPageOpened && (
+        <Navigation
+          {...{
+            htmlOutlineDot,
+            htmlFullDot,
+            backToSection1,
+            backToSection2,
+            backToSection3,
+            backToSection4,
+            togglePage,
+            sectionName,
+            trainingNumber,
+            experienceNumber,
+            triggerArrow,
+            isExperience,
+            isHtmlDot,
+            projectNumber,
+            backToHome,
+            redirect,
+          }}
+          isBackgroundDark={isBackgroundDark()}
+        ></Navigation>
+      )}
     </div>
   );
 }
