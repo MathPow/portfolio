@@ -17,7 +17,7 @@
 }
 
 body {
-  background: #212121;
+  background: #17191d;
   overflow-x: hidden;
 }
 
@@ -135,11 +135,11 @@ h4 {
   left: 50%;
   transform: translate(-50%, -50%);
   margin: auto;
-  filter: url('#goo');
+  filter: url("#goo");
   animation: rotate-move 2s ease-in-out infinite;
 }
 
-.dot { 
+.dot {
   width: 70px;
   height: 70px;
   border-radius: 50%;
@@ -168,39 +168,82 @@ h4 {
 }
 
 @keyframes dot-3-move {
-  20% {transform: scale(1)}
-  45% {transform: translateY(-18px) scale(.45)}
-  60% {transform: translateY(-90px) scale(.45)}
-  80% {transform: translateY(-90px) scale(.45)}
-  100% {transform: translateY(0px) scale(1)}
+  20% {
+    transform: scale(1);
+  }
+  45% {
+    transform: translateY(-18px) scale(0.45);
+  }
+  60% {
+    transform: translateY(-90px) scale(0.45);
+  }
+  80% {
+    transform: translateY(-90px) scale(0.45);
+  }
+  100% {
+    transform: translateY(0px) scale(1);
+  }
 }
 
 @keyframes dot-2-move {
-  20% {transform: scale(1)}
-  45% {transform: translate(-16px, 12px) scale(.45)}
-  60% {transform: translate(-80px, 60px) scale(.45)}
-  80% {transform: translate(-80px, 60px) scale(.45)}
-  100% {transform: translateY(0px) scale(1)}
+  20% {
+    transform: scale(1);
+  }
+  45% {
+    transform: translate(-16px, 12px) scale(0.45);
+  }
+  60% {
+    transform: translate(-80px, 60px) scale(0.45);
+  }
+  80% {
+    transform: translate(-80px, 60px) scale(0.45);
+  }
+  100% {
+    transform: translateY(0px) scale(1);
+  }
 }
 
 @keyframes dot-1-move {
-  20% {transform: scale(1)}
-  45% {transform: translate(16px, 12px) scale(.45)}
-  60% {transform: translate(80px, 60px) scale(.45)}
-  80% {transform: translate(80px, 60px) scale(.45)}
-  100% {transform: translateY(0px) scale(1)}
+  20% {
+    transform: scale(1);
+  }
+  45% {
+    transform: translate(16px, 12px) scale(0.45);
+  }
+  60% {
+    transform: translate(80px, 60px) scale(0.45);
+  }
+  80% {
+    transform: translate(80px, 60px) scale(0.45);
+  }
+  100% {
+    transform: translateY(0px) scale(1);
+  }
 }
 
 @keyframes rotate-move {
-  55% {transform: translate(-50%, -50%) rotate(0deg)}
-  80% {transform: translate(-50%, -50%) rotate(360deg)}
-  100% {transform: translate(-50%, -50%) rotate(360deg)}
+  55% {
+    transform: translate(-50%, -50%) rotate(0deg);
+  }
+  80% {
+    transform: translate(-50%, -50%) rotate(360deg);
+  }
+  100% {
+    transform: translate(-50%, -50%) rotate(360deg);
+  }
 }
 
 @keyframes index {
-  0%, 100% {z-index: 3}
-  33.3% {z-index: 2}
-  66.6% {z-index: 1}
+  0%,
+  100% {
+    z-index: 3;
+  }
+  33.3% {
+    z-index: 2;
+  }
+  66.6% {
+    z-index: 1;
+  }
 }
 
 @keyframes spin {
@@ -215,10 +258,10 @@ h4 {
 
 @keyframes flash {
   0% {
-     opacity: 1;
+    opacity: 1;
   }
   100% {
-     opacity: 0;
+    opacity: 0;
   }
 }
 
@@ -242,18 +285,18 @@ h4 {
 
 /* Track */
 ::-webkit-scrollbar-track {
-  background: none; 
+  background: none;
 }
- 
+
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: rgb(135, 135, 135, 0.5); 
+  background: rgb(135, 135, 135, 0.5);
   border-radius: 10px;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: rgb(84, 84, 84, 0.5); 
+  background: rgb(84, 84, 84, 0.5);
 }
 
 /*loading button*/
@@ -261,14 +304,14 @@ h4 {
 :root {
   /* violet */
   --primary-color: 247, 80, 119;
-  
+
   /* white */
   --text-color: 256, 256, 256;
 }
 
 .btn {
   width: 300px;
-  font-family: 'DM Sans', sans-serif;
+  font-family: "DM Sans", sans-serif;
   font-size: 18px;
   padding: 12px 32px;
   margin: 1rem;
@@ -297,7 +340,12 @@ h4 {
 
 /* https://sushi.com/ */
 .btn-gradient {
-  background-image: linear-gradient(to right, rgb(247, 80, 119), rgb(255, 226, 133), rgb(16, 188, 171));
+  background-image: linear-gradient(
+    to right,
+    rgb(247, 80, 119),
+    rgb(255, 226, 133),
+    rgb(16, 188, 171)
+  );
   border: 0;
   color: rgba(var(--text-color));
 }
@@ -306,18 +354,29 @@ h4 {
 .btn-gradient-border {
   color: rgba(var(--text-color));
   border: 4px double transparent;
-  background-image: linear-gradient(rgb(13, 14, 33), rgb(13, 14, 33)), radial-gradient(circle at left top, rgb(247, 80, 119), rgb(255, 226, 133), rgb(16, 188, 171));
+  background-image: linear-gradient(rgb(13, 14, 33), rgb(13, 14, 33)),
+    radial-gradient(
+      circle at left top,
+      rgb(247, 80, 119),
+      rgb(255, 226, 133),
+      rgb(16, 188, 171)
+    );
   background-origin: border-box;
   background-clip: padding-box, border-box;
 }
 
 .gradient-text {
   background-color: rgb(255, 255, 255);
-  background-image: linear-gradient(45deg, rgb(255, 204, 215),rgb(255, 239, 192), rgb(168, 255, 246));
+  background-image: linear-gradient(
+    45deg,
+    rgb(255, 204, 215),
+    rgb(255, 239, 192),
+    rgb(168, 255, 246)
+  );
   background-size: 100%;
   background-repeat: repeat;
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent; 
+  -webkit-text-fill-color: transparent;
   -moz-background-clip: text;
   -moz-text-fill-color: transparent;
 }

@@ -1,11 +1,10 @@
-import SplineApp from '@/components/spline';
-import React from 'react';
+import SplineApp from "@/components/spline";
+import React from "react";
 
 export default function Home() {
-
   return (
     <div>
-      <SplineApp/>
+      <SplineApp />
     </div>
-  )
+  );
 }
