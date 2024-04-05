@@ -32,4 +32,4 @@ yarn-error.log*
 next-env.d.ts
 
 # next.js
-.next
+/.next
