@@ -91,7 +91,7 @@ export default function LoadingScreen({
         }`}
       >
         <div className="rounded-xl py-1.5 px-4 font-semibold flex justify-between">
-          <span>Faits intéressant</span>
+          <span>Faits intéressants</span>
           {/* <svg
             className="h-6 w-6 fill-white"
             xmlns="http://www.w3.org/2000/svg"
