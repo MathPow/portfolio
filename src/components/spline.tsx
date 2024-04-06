@@ -1,13 +1,13 @@
 import React, { useRef, useState, useEffect } from "react";
 import "@/styles/globals.css";
 import Spline from "@splinetool/react-spline";
-import Navigation from "@/components/navigation";
+import Navigation from "@/components/navigations/navigation";
 import Tooltip from "./tooltip";
 import Flash from "./flash";
-import { RedirectEnum } from "./redirectEnum";
+import { RedirectEnum } from "@/lib/enums/redirectEnum";
 import { isMobile } from "react-device-detect";
 import { Toaster, toast } from "sonner";
-import LoadingScreen from "./loadingScreen";
+import LoadingScreen from "@/components/sections/loadingScreen/loadingScreen";
 import { DotEnum } from "@/lib/enums/dotEnum";
 
 interface SplineObject {

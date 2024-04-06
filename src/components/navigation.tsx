@@ -1,13 +1,13 @@
 import React from "react";
 import "@/styles/globals.css";
-import { RedirectEnum } from "./redirectEnum";
-import NavBar from "./navBar";
-import AboutMe from "./aboutMe";
-import ContactMe from "./socials";
-import Projects from "./projects";
+import { RedirectEnum } from "@/lib/enums/redirectEnum";
+import NavBar from "@/components/navigations/navBar";
+import AboutMe from "@/components/sections/aboutMe/aboutMe";
+import ContactMe from "@/components/sections/contactMe/contactMe";
+import Projects from "@/components/sections/projects/projects";
 import { DotEnum } from "@/lib/enums/dotEnum";
-import Experiences from "./experiences";
-import Training from "./training";
+import Experiences from "@/components/sections/experiences/experiences";
+import Training from "@/components/sections/experiences/training";
 
 interface NavigationProps {
   isBackgroundDark: boolean;
@@ -56,9 +56,7 @@ export default function Navigation({
         redirect={redirect}
       />
       {isHtmlDot == DotEnum.SECTION1 && <AboutMe />}
-      {isHtmlDot == DotEnum.SECTION4 && (
-        <ContactMe isWhite={isBackgroundDark} />
-      )}
+      {isHtmlDot == DotEnum.SECTION4 && <ContactMe />}
       {isHtmlDot == DotEnum.SECTION2 && (
         <Projects projectNumber={projectNumber} redirect={redirect} />
       )}

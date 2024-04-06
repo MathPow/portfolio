@@ -1,0 +1,10 @@
+export enum RedirectEnum {
+    HOME,
+    PRESENTATION,
+    COMPETENCES,
+    INTERETS,
+    PROJETS,
+    EXPERIENCES,
+    FORMATIONS,
+    CONTACTEZMOI
+  }
