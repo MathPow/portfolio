@@ -1,40 +1,64 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+<div style="text-align: center;">
 
-First, run the development server:
+# Bienvenue dans le portfolio de Mathys Deshaies
+<div style="display: flex; justify-content: center;">
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+[<img src="https://s18955.pcdn.co/wp-content/uploads/2018/02/github.png" width="35" style="margin-right: 20px;"/>](https://github.com/MathPow)
+[<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="24x24" class="mercado-match" width="35" height="35" focusable="false">
+<path d="M20.5 2h-17A1.5 1.5 0 002 3.5v17A1.5 1.5 0 003.5 22h17a1.5 1.5 0 001.5-1.5v-17A1.5 1.5 0 0020.5 2zM8 19H5v-9h3zM6.5 8.25A1.75 1.75 0 118.3 6.5a1.78 1.78 0 01-1.8 1.75zM19 19h-3v-4.74c0-1.42-.6-1.93-1.38-1.93A1.74 1.74 0 0013 14.19a.66.66 0 000 .14V19h-3v-9h2.9v1.3a3.11 3.11 0 012.7-1.4c1.55 0 3.36.86 3.36 3.66z"></path>
+</svg>](https://www.linkedin.com/in/mathys-deshaies)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+</div>
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+</div>
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+*English version below*
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+## Description
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Ceci est un portfolio
 
-## Learn More
+[lien]
 
-To learn more about Next.js, take a look at the following resources:
+[gif]
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Technologies utilisés
+- [Reactjs](https://react.dev//)
+- [Tailwind css](https://tailwindcss.com/)
+- [Spline](https://spline.design/)
+- [Shadcn/ui](https://ui.shadcn.com/)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Informations sur moi
+bla bla bla
 
-## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Remerciement
+Merci beaucoup d'avoir pris le temps de regarder qui je suis et ce que je fais. 
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Vous pouvez m'écrire par **LinkedIn** ou par email à **mathys.deshaies.co@gmail.com**.
+
+<hr>
+
+## Description
+
+This is a portfolio
+
+[link]
+
+[gif]
+
+## Technologies Used
+- [Reactjs](https://react.dev//)
+- [Tailwind css](https://tailwindcss.com/)
+- [Spline](https://spline.design/)
+- [Shadcn/ui](https://ui.shadcn.com/)
+
+## About Me
+bla bla bla
+
+
+## Acknowledgement
+Thank you very much for taking the time to see who I am and what I do.
+
+You can contact me via **LinkedIn** or by email at **mathys.deshaies.co@gmail.com**.
